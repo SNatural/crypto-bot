@@ -39,7 +39,7 @@ export class ExitInfo {
       init?.targets.forEach(x => this.targets.push(new Target(x)));
     }
     if(!init?.threshold){
-      this.threshold = 0.4.toString() + '%';
+      this.threshold = 0.9.toString() + '%';
     }
   }
   
